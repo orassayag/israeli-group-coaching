@@ -1,7 +1,7 @@
 # Israeli Group Coaching Old
 
 Built in July 2010.
-Papaito site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with real world project.
+Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with real world project.
 Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
 ## Getting Started
