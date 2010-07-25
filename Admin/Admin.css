@@ -1,0 +1,545 @@
+﻿html
+{
+    background-color: #FFFFFF;
+}
+
+body
+{
+    margin: 0px;
+    font-family: Tahoma, "Trebuchet MS" , Verdana;
+    font-size: 12px;
+    line-height: 1.5em;
+    color: Green;
+}
+
+body table
+{
+    margin: 0px auto;
+}
+
+.HeaderTitle
+{
+    position: relative;
+    height: 110px;
+    background-color: #FFFFFF;
+    background-repeat: repeat-x;
+    background-position: center;
+    text-align: right;
+    vertical-align: middle;
+    margin-top: 20px;
+    width: 100%;
+}
+
+table
+{
+    border: none;
+}
+
+input
+{
+    border: solid 1px #333;
+}
+
+.wrapper
+{
+    width: 100%;
+    text-align: center;
+}
+
+.main
+{
+    margin: auto;
+    width: 755px;
+}
+
+.wrapper select
+{
+    margin: auto;
+}
+
+.notify
+{
+    margin-left: 100px;
+    width: 900px;
+    height: 81px;
+}
+
+.can
+{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+#login
+{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    font-size: 10pt;
+}
+
+#login h2
+{
+    color: Blue;
+}
+
+#login table
+{
+    margin: auto;
+}
+
+.can div
+{
+    margin: 0px 0px 0px 0px;
+}
+
+
+.space63
+{
+    height: 20px;
+}
+
+.space61
+{
+    width: 171px;
+}
+
+.space60
+{
+    height: 100px;
+}
+
+.errorLogin
+{
+    color: Red;
+}
+
+.loginP
+{
+    text-align: center;
+}
+
+#wrapper2
+{
+    width: 100%;
+    margin-right: 1px;
+}
+
+ul.tabs2
+{
+    width: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+ul.tabs2 li
+{
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
+ul.tabs2 li a
+{
+    display: block;
+    float: left;
+    padding: 4px;
+    font-size: 11;
+    background-color: #FFFFFF;
+    color: #666;
+    text-decoration: none;
+}
+
+.selected2
+{
+    font-weight: bold;
+}
+
+.tab-content2
+{
+    clear: both;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-right: 0px;
+}
+
+.admin2
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.defaulttab2
+{
+    font-weight: bold;
+}
+
+.textHeb
+{
+    direction: rtl;
+}
+
+.textEn
+{
+    direction: ltr;
+}
+
+.tableEdit
+{
+}
+
+#mailListsNotify
+{
+    text-align: center;
+}
+
+/*Tab 1 - Contents */
+
+.contents
+{
+    width: 700px;
+    text-align: right;
+}
+
+.contents h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.contents h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.contentsTable
+{
+    width: 705px;
+}
+
+#contentsNotify
+{
+    text-align: center;
+}
+
+/*Tab 2 - Articles */
+
+.articles
+{
+    width: 700px;
+    text-align: right;
+}
+
+.articles h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.articles h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.articlesTable
+{
+    width: 705px;
+}
+
+#articlesNotify
+{
+    text-align: center;
+}
+
+/*Tab 3 - MailList */
+
+.mailList
+{
+    border: none;
+    width: 700px;
+    text-align: right;
+}
+
+.mailList h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.mailList h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.mailListTable
+{
+    width: 705px;
+}
+
+.list
+{
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.list a
+{
+    color: Blue;
+    padding: 1px;
+}
+
+.list a:hover
+{
+    color: #fff;
+}
+
+.mailTable
+{
+    border: none;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.mailTable table, .mailTable div
+{
+    border: none;
+    text-align: center;
+}
+
+.mailSelect
+{
+    float: right;
+}
+
+.unVisiPro
+{
+    visibility: hidden;
+    text-align: center;
+}
+
+.visiPro
+{
+    visibility: visible;
+    text-align: center;
+    height: 300px;
+}
+
+.checklist
+{
+    overflow: auto;
+    border: solid 1px green;
+    height: 100px;
+    width: 700px;
+}
+
+#mailListsNotify
+{
+    text-align: center;
+}
+
+
+/*Tab 4 - Graduates */
+
+.graduates
+{
+}
+
+.graduates h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.graduates h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.graduatesTable
+{
+    width: 606px;
+}
+
+.cen
+{
+    text-align: center;
+    direction: ltr;
+}
+
+#graduatesNotify
+{
+    text-align: center;
+}
+
+/*Tab 5 - Logs */
+
+.logs
+{
+}
+
+.logs h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.logs h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.logsTable
+{
+    width: 606px;
+}
+
+.cenLo
+{
+    text-align: center;
+    direction: ltr;
+}
+
+#logsNotify
+{
+    text-align: center;
+}
+
+/*Tab 6 - Leads */
+
+.leads
+{
+}
+
+.leads h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.leads h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.leadsTable
+{
+    width: 606px;
+}
+
+.unVisiHeb
+{
+    visibility: hidden;
+    direction: rtl;
+}
+
+.visiPro
+{
+    visibility: visible;
+    direction: rtl;
+}
+
+.cenl
+{
+    text-align: center;
+    direction: ltr;
+}
+
+#leadsNotify
+{
+    text-align: center;
+}
+
+/*Tab 7 - News */
+
+.news
+{
+}
+
+.news h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.news h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.newslTable
+{
+    width: 606px;
+}
+
+/*Tab 8 - Admins */
+
+.admins
+{
+}
+
+.admins h3
+{
+    width: 220px;
+    height: 22px;
+    font-size: x-large;
+}
+
+.admins h4
+{
+    font-size: small;
+    text-decoration: underline;
+}
+
+.adminslTable
+{
+    width: 606px;
+}
+
+
+/* Others */
+
+.mailNo
+{
+    visibility: hidden;
+}
+
+.mailYes
+{
+    visibility: visible;
+}
+
+.red
+{
+    color: Red;
+}
+
+.unVisi
+{
+    visibility: hidden;
+}
+
+.visi
+{
+    visibility: visible;
+}
+
+.tableEdit
+{
+    text-align: center;
+    margin: 0px, auto;
+}

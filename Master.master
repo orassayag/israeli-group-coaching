@@ -1,0 +1,199 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>המרכז לאימון בקבוצה</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
+
+    <script src="App_Js/jScrollPane.js" type="text/javascript"></script>
+
+    <script src="App_Js/JScript.js" type="text/javascript"></script>
+
+    <script src="App_Js/jquery.onImagesLoad.js" type="text/javascript"></script>
+
+    <script src="App_Js/jquery.mousewheel.js" type="text/javascript"></script>
+
+    <script src="App_Js/jquery.em.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(function() {
+            // this initialises the demo scollpanes on the page.
+            $('#pane2').jScrollPane({ showArrows: false, scrollbarWidth: 16, arrowSize: 16 });
+        });
+			
+    </script>
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <img id="background" src="images/picbackground.jpg" alt="" />
+    <div id="content">
+        <div class="HeaderTitle">
+            <a href="http://www.malliere.com/">
+                <img src="images/logo.png" alt="" /></a>
+        </div>
+        <div class="space4">
+        </div>
+        <div class="Column2">
+            <div class="BlockBorderNews">
+                <div class="BlockBLNews">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockBRNews">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockTLNews">
+                </div>
+                <div class="BlockTRNews">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockTNews">
+                </div>
+                <div class="BlockRNews">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockBNews">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockLNews">
+                </div>
+                <div class="BlockCNews">
+                </div>
+                <div class="BlockNews">
+                    <div class="BlockContentBorderBorderNews">
+                        <div class="BlockContentBorderCNews">
+                        </div>
+                        <div class="BlockContentBorderNews">
+                            <div class="news-container">
+                                <ul id="textNews" runat="server">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="BlockBorderSignIn">
+                <div class="BlockBLSignIn">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockBRSignIn">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockTLSignIn">
+                </div>
+                <div class="BlockTRSignIn">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockTSignIn">
+                </div>
+                <div class="BlockRSignIn">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockBSignIn">
+                    <div>
+                    </div>
+                </div>
+                <div class="BlockLSignIn">
+                </div>
+                <div class="BlockCSignIn">
+                </div>
+                <div class="BlockSignIn">
+                    <div class="BlockContentBorderBorderSignIn">
+                        <div class="BlockContentBorderCSignIn">
+                        </div>
+                        <div class="BlockContentBorderSignIn">
+                            הרשמה לרשימת התפוצה
+                            <p>
+                            </p>
+                            שם מלא:
+                            <br />
+                            <asp:TextBox ID="getName" CssClass="hebrew" runat="server" Width="130px"></asp:TextBox>
+                            <br />
+                            אי-מייל:
+                            <br />
+                            <asp:TextBox ID="getMail" runat="server" CssClass="english" Width="130px"></asp:TextBox>
+                            <br />
+                            <asp:Button ID="submitBut" Text="הרשם" runat="server" OnClientClick="return validate()"
+                                OnClick="submitBut_OnClick" />
+                            <br />
+                            <asp:Label ID="messageLabel" runat="server"></asp:Label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="MainColumn">
+            <div class="ArticleBorder">
+                <div class="ArticleBL">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleBR">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleTL">
+                </div>
+                <div class="ArticleTR">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleT">
+                </div>
+                <div class="ArticleG">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleR">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleB">
+                    <div>
+                    </div>
+                </div>
+                <div class="ArticleH">
+                </div>
+                <div class="ArticleL">
+                </div>
+                <div class="Menu">
+                    <ul id="contentMenu" runat="server">
+                    </ul>
+                </div>
+                <div class="ArticleU">
+                </div>
+                <div class="ArticleC">
+                </div>
+                <div class="space3">
+                </div>
+                <div class="holder osX">
+                    <div id="pane2" class="Article">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                        <div class="space2">
+                        </div>
+                    </div>
+                </div>
+                <div class="space1">
+                </div>
+            </div>
+        </div>
+        <span class="RushTideLink">Created By <a href="mailto:orassayag@gmail.com">Or Assayag</a>
+            | Designed By <a href="mailto:meravi.keet@gmail.com">Merav Keet</a> </span>
+    </div>
+    </form>
+</body>
+</html>

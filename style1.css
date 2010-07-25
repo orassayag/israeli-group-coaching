@@ -1,0 +1,1110 @@
+html, body
+{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    width: 100%;
+    height: 100%;
+}
+
+#background
+{
+    position: fixed;
+    width: 150%;
+    height: 100%;
+}
+
+#content
+{
+    position: relative;
+    z-index: 1;
+}
+
+.HeaderTitle
+{
+    position: relative;
+    height: 97px;
+    background-color: #FFFFFF;
+    background-repeat: repeat-x;
+    background-position: center;
+    text-align: right;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.HeaderTitle img
+{
+    margin-right: 20px;
+}
+
+ul
+{
+    margin: 5px;
+    padding-left: 20px;
+}
+.BodyContent
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.Menu
+{
+    margin: 15px;
+    text-align: right;
+    vertical-align: middle;
+}
+.Menu ul
+{
+    margin-top: 5px;
+    margin-left: -8px;
+    position: absolute;
+    list-style-type: none;
+    background-image: url('images/ArticleHorizontalO.png');
+    width: 98.5%;
+    height: 5%;
+    color: #FFE;
+    padding-top: 7px;
+    padding-left: 0px;
+    color: #000000;
+}
+.Menu li
+{
+    display: inline;
+    padding: 3px;
+    margin: 0;
+}
+
+.Menu a
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.Columns
+{
+    overflow: hidden;
+}
+.Column1
+{
+    overflow: hidden;
+    float: left;
+    width: 20%;
+}
+.Column2
+{
+    overflow: hidden;
+    float: right;
+    width: 20%;
+    padding: 10px;
+}
+.MainColumn
+{
+    overflow: hidden;
+}
+img
+{
+    border: 0;
+}
+
+.Article
+{
+    position: relative;
+    z-index: 1;
+    padding: 11px 11px 11px 11px;
+    color: #000;
+    overflow: auto;
+    height: 310px;
+}
+
+.ArticleBorder
+{
+    z-index: 0;
+    position: relative;
+    margin: 0px 16px 0px 34px;
+}
+.ArticleTL, .ArticleTR, .ArticleBL, .ArticleBR, .ArticleU, .ArticleL, .ArticleH, .ArticleT, .ArticleG, .ArticleR, .ArticleB, .ArticleC
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.ArticleTL, .ArticleTR, .ArticleBL, .ArticleBR
+{
+    width: 15px;
+    height: 15px;
+}
+.ArticleTL
+{
+    top: 0;
+    left: 0;
+    background-image: url('images/ArticleCornersO.png');
+}
+.ArticleBL div, .ArticleBR div
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/ArticleCorners.png');
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+.ArticleTR div
+{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/ArticleCornersO.png');
+    left: -15px;
+}
+.ArticleBL div
+{
+    top: -15px;
+    filter: alpha(opacity=5);
+    opacity: 0.0;
+}
+.ArticleBR div
+{
+    left: -15px;
+    top: -15px;
+    filter: alpha(opacity=5);
+    opacity: 0.0;
+}
+.ArticleTR
+{
+    top: 0;
+    right: 0;
+}
+.ArticleBL
+{
+    bottom: 0;
+    left: 0;
+}
+.ArticleBR
+{
+    bottom: 0;
+    right: 0;
+}
+.ArticleT, .ArticleB
+{
+    left: 15px;
+    right: 15px;
+    height: 15px;
+}
+.ArticleT
+{
+    top: 0;
+    background-image: url('images/ArticleHorizontalO.png');
+}
+.ArticleB
+{
+    bottom: 0px;
+}
+.ArticleB div
+{
+    position: absolute;
+    z-index: -1;
+    top: -15px;
+    height: 30px;
+    width: 100%;
+    background-image: url('images/ArticleHorizontal.png');
+    filter: alpha(opacity=5);
+    opacity: 0.0;
+}
+.ArticleL, .ArticleR, .ArticleG, .ArticleH
+{
+    top: 15px;
+    bottom: 15px;
+    width: 15px;
+}
+.ArticleL
+{
+    left: 0;
+    background-image: url('images/ArticleVerticalO.png');
+    height: 6%;
+}
+
+.ArticleH
+{
+    left: 0;
+    background-image: url('images/ArticleVertical.png');
+    height: 95%;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.ArticleR
+{
+    right: 0;
+}
+.ArticleR div
+{
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+    width: 30px;
+    height: 6.6%;
+    background-image: url('images/ArticleVerticalO.png');
+}
+
+.ArticleG
+{
+    right: 0;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.ArticleG div
+{
+    position: absolute;
+    z-index: -1;
+    left: -15px;
+    width: 30px;
+    height: 100%;
+    background-image: url('images/ArticleVertical.png');
+}
+
+.ArticleC
+{
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    background-image: url('images/ArticleCenter.png');
+    height: 95%;
+    z-index: -1;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
+
+.ArticleU
+{
+    left: 7px;
+    top: 31px;
+    right: 7px;
+    bottom: 15px;
+    background-image: url('images/ArticleCenterO.png');
+    height: 2.3%;
+    z-index: 1;
+}
+
+.Article h2
+{
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+}
+.Article h2 a, .Article h2 a:visited
+{
+    color: #000;
+    text-decoration: none;
+}
+.Article h2 a:hover
+{
+    text-decoration: underline;
+}
+
+
+
+/*News*/
+
+.BlockNews
+{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+    color: #000;
+    font-size: 16px;
+    font-weight:bold;
+}
+.BlockNews a
+{
+    color: #494900;
+    text-decoration: underline;
+}
+.BlockNews a:visited
+{
+    color: #494900;
+    text-decoration: underline;
+}
+.BlockNews a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+.BlockBorderNews
+{
+    z-index: 0;
+    position: relative;
+    margin: 0;
+}
+.BlockTLNews, .BlockTRNews, .BlockBLNews, .BlockBRNews, .BlockLNews, .BlockTNews, .BlockRNews, .BlockBNews, .BlockCNews
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.BlockTLNews, .BlockTRNews, .BlockBLNews, .BlockBRNews
+{
+    width: 32px;
+    height: 32px;
+}
+.BlockTLNews
+{
+    top: 0;
+    left: 0;
+    background-image: url('images/BlockCornersN.png');
+}
+.BlockTRNews div, .BlockBLNews div, .BlockBRNews div
+{
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/BlockCornersN.png');
+}
+.BlockTRNews div
+{
+    left: -32px;
+}
+.BlockBLNews div
+{
+    top: -32px;
+}
+.BlockBRNews div
+{
+    left: -32px;
+    top: -32px;
+}
+.BlockTRNews
+{
+    top: 0;
+    right: 0;
+}
+.BlockBLNews
+{
+    bottom: 0;
+    left: 0;
+}
+.BlockBRNews
+{
+    bottom: 0;
+    right: 0;
+}
+.BlockTNews, .BlockBNews
+{
+    left: 32px;
+    right: 32px;
+    height: 32px;
+}
+.BlockTNews
+{
+    top: 0;
+    background-image: url('images/BlockHorizontalN.png');
+}
+.BlockBNews
+{
+    bottom: 0;
+}
+.BlockBNews div
+{
+    position: absolute;
+    z-index: -1;
+    top: -32px;
+    height: 64px;
+    width: 100%;
+    background-image: url('images/BlockHorizontalN.png');
+}
+.BlockLNews, .BlockRNews
+{
+    top: 32px;
+    bottom: 32px;
+    width: 32px;
+}
+.BlockLNews
+{
+    left: 0;
+    background-image: url('images/BlockVerticalN.png');
+}
+.BlockRNews
+{
+    right: 0;
+}
+.BlockRNews div
+{
+    position: absolute;
+    z-index: -1;
+    left: -32px;
+    width: 64px;
+    height: 100%;
+    background-image: url('images/BlockVerticalN.png');
+}
+.BlockCNews
+{
+    left: 32px;
+    top: 32px;
+    right: 32px;
+    bottom: 32px;
+    background-image: url('images/BlockCenterN.png');
+}
+.BlockHeaderNews
+{
+    border: 0;
+    margin: 0;
+    background: transparent url('images/BlockHeaderAnchorN.png') no-repeat top left;
+    position: relative;
+    overflow: hidden;
+    height: 28px;
+    padding: 0 0 0 18px;
+    display: block;
+    color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.BlockHeaderNews span
+{
+    border: 0;
+    margin: 0;
+    background: transparent url('images/BlockHeaderN.png') no-repeat right top;
+    display: block;
+    position: relative;
+    color: #212121;
+    line-height: 18px;
+}
+.BlockHeaderNews span
+{
+    padding: 5px 18px 5px 0;
+}
+.BlockHeaderNews
+{
+    margin: 0;
+}
+.BlockContentBorderNews
+{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 6px 6px 6px 6px;
+    color: #000;
+    font-size: 14px;
+    height: 150px;
+}
+.BlockContentBorderNews a
+{
+    color: #660;
+    text-decoration: underline;
+}
+.BlockContentBorderNews a:visited
+{
+    color: #660;
+    text-decoration: underline;
+}
+.BlockContentBorderNews a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+.BlockContentBorderBorderNews
+{
+    z-index: 0;
+    position: relative;
+    margin: 0;
+}
+.BlockContentBorderTLNews, .BlockContentBorderTRNews, .BlockContentBorderBLNews, .BlockContentBorderBRNews, .BlockContentBorderLNews, .BlockContentBorderTNews, .BlockContentBorderRNews, .BlockContentBorderBNews, .BlockContentBorderCNews
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.BlockContentBorderTLNews, .BlockContentBorderTRNews, .BlockContentBorderBLNews, .BlockContentBorderBRNews
+{
+    width: 20px;
+    height: 20px;
+}
+.BlockContentBorderTLNews
+{
+    top: 0;
+    left: 0;
+    background-image: url('images/BlockContentBorderCornersN.png');
+}
+.BlockContentBorderTRNews div, .BlockContentBorderBLNews div, .BlockContentBorderBRNews div
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/BlockContentBorderCornersN.png');
+}
+.BlockContentBorderTRNews div
+{
+    left: -20px;
+}
+.BlockContentBorderBLNews div
+{
+    top: -20px;
+}
+.BlockContentBorderBRNews div
+{
+    left: -20px;
+    top: -20px;
+}
+.BlockContentBorderTRNews
+{
+    top: 0;
+    right: 0;
+}
+.BlockContentBorderBLNews
+{
+    bottom: 0;
+    left: 0;
+}
+.BlockContentBorderBRNews
+{
+    bottom: 0;
+    right: 0;
+}
+.BlockContentBorderTNews, .BlockContentBorderBNews
+{
+    left: 20px;
+    right: 20px;
+    height: 20px;
+}
+.BlockContentBorderTNews
+{
+    top: 0;
+    background-image: url('images/BlockContentBorderHorizontalN.png');
+}
+.BlockContentBorderBNews
+{
+    bottom: 0;
+}
+.BlockContentBorderBNews div
+{
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    height: 40px;
+    width: 100%;
+    background-image: url('images/BlockContentBorderHorizontalN.png');
+}
+.BlockContentBorderLNews, .BlockContentBorderRNews
+{
+    top: 20px;
+    bottom: 20px;
+    width: 20px;
+}
+.BlockContentBorderLNews
+{
+    left: 0;
+    background-image: url('images/BlockContentBorderVerticalN.png');
+}
+.BlockContentBorderRNews
+{
+    right: 0;
+}
+.BlockContentBorderRNews div
+{
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    width: 40px;
+    height: 100%;
+    background-image: url('images/BlockContentBorderVerticalN.png');
+}
+.BlockContentBorderCNews
+{
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    background-image: url('images/BlockContentBorderCenterN.png');
+}
+
+/*Sign In*/
+.BlockSignIn
+{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 15px 15px 15px 15px;
+    color: #000;
+    font-size: 16px;
+}
+.BlockSignIn a
+{
+    color: #494900;
+    text-decoration: underline;
+}
+.BlockSignIn a:visited
+{
+    color: #494900;
+    text-decoration: underline;
+}
+.BlockSignIn a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+.BlockBorderSignIn
+{
+    z-index: 0;
+    position: relative;
+    margin: 0;
+}
+.BlockTLSignIn, .BlockTRSignIn, .BlockBLSignIn, .BlockBRSignIn, .BlockLSignIn, .BlockTSignIn, .BlockRSignIn, .BlockBSignIn, .BlockCSignIn
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.BlockTLSignIn, .BlockTRSignIn, .BlockBLSignIn, .BlockBRSignIn
+{
+    width: 32px;
+    height: 32px;
+}
+.BlockTLSignIn
+{
+    top: 0;
+    left: 0;
+    background-image: url('images/BlockCornersS.png');
+}
+.BlockTRSignIn div, .BlockBLSignIn div, .BlockBRSignIn div
+{
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/BlockCornersS.png');
+}
+.BlockTRSignIn div
+{
+    left: -32px;
+}
+.BlockBLSignIn div
+{
+    top: -32px;
+}
+.BlockBRSignIn div
+{
+    left: -32px;
+    top: -32px;
+}
+.BlockTRSignIn
+{
+    top: 0;
+    right: 0;
+}
+.BlockBLSignIn
+{
+    bottom: 0;
+    left: 0;
+}
+.BlockBRSignIn
+{
+    bottom: 0;
+    right: 0;
+}
+.BlockTSignIn, .BlockBSignIn
+{
+    left: 32px;
+    right: 32px;
+    height: 32px;
+}
+.BlockTSignIn
+{
+    top: 0;
+    background-image: url('images/BlockHorizontalS.png');
+}
+.BlockBSignIn
+{
+    bottom: 0;
+}
+.BlockBSignIn div
+{
+    position: absolute;
+    z-index: -1;
+    top: -32px;
+    height: 64px;
+    width: 100%;
+    background-image: url('images/BlockHorizontalS.png');
+}
+.BlockLSignIn, .BlockRSignIn
+{
+    top: 32px;
+    bottom: 32px;
+    width: 32px;
+}
+.BlockLSignIn
+{
+    left: 0;
+    background-image: url('images/BlockVerticalS.png');
+}
+.BlockRSignIn
+{
+    right: 0;
+}
+.BlockRSignIn div
+{
+    position: absolute;
+    z-index: -1;
+    left: -32px;
+    width: 64px;
+    height: 100%;
+    background-image: url('images/BlockVerticalS.png');
+}
+.BlockCSignIn
+{
+    left: 32px;
+    top: 32px;
+    right: 32px;
+    bottom: 32px;
+    background-image: url('images/BlockCenterS.png');
+}
+.BlockHeaderSignIn
+{
+    border: 0;
+    margin: 0;
+    background: transparent url('images/BlockHeaderAnchorS.png') no-repeat top left;
+    position: relative;
+    overflow: hidden;
+    height: 28px;
+    padding: 0 0 0 18px;
+    display: block;
+    color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.BlockHeaderSignIn span
+{
+    border: 0;
+    margin: 0;
+    background: transparent url('images/BlockHeaderS.png') no-repeat right top;
+    display: block;
+    position: relative;
+    color: #212121;
+    line-height: 18px;
+}
+.BlockHeaderSignIn span
+{
+    padding: 5px 18px 5px 0;
+}
+.BlockHeaderSignIn
+{
+    margin: 0;
+}
+.BlockContentBorderSignIn
+{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 6px 6px 6px 6px;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    height: 164px;
+    direction: rtl;
+}
+.BlockContentBorderSignIn a
+{
+    color: #660;
+    text-decoration: underline;
+}
+.BlockContentBorderSignIn a:visited
+{
+    color: #660;
+    text-decoration: underline;
+}
+.BlockContentBorderSignIn a:hover
+{
+    color: #000;
+    text-decoration: none;
+}
+.BlockContentBorderBorderSignIn
+{
+    z-index: 0;
+    position: relative;
+    margin: 0;
+}
+.BlockContentBorderTLSignIn, .BlockContentBorderTRSignIn, .BlockContentBorderBLSignIn, .BlockContentBorderBRSignIn, .BlockContentBorderLSignIn, .BlockContentBorderTSignIn, .BlockContentBorderRSignIn, .BlockContentBorderBSignIn, .BlockContentBorderCSignIn
+{
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+}
+.BlockContentBorderTLSignIn, .BlockContentBorderTRSignIn, .BlockContentBorderBLSignIn, .BlockContentBorderBRSignIn
+{
+    width: 20px;
+    height: 20px;
+}
+.BlockContentBorderTLSignIn
+{
+    top: 0;
+    left: 0;
+    background-image: url('images/BlockContentBorderCornersS.png');
+}
+.BlockContentBorderTRSignIn div, .BlockContentBorderBLSignIn div, .BlockContentBorderBRSignIn div
+{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/BlockContentBorderCornersS.png');
+}
+.BlockContentBorderTRSignIn div
+{
+    left: -20px;
+}
+.BlockContentBorderBLSignIn div
+{
+    top: -20px;
+}
+.BlockContentBorderBRSignIn div
+{
+    left: -20px;
+    top: -20px;
+}
+.BlockContentBorderTRSignIn
+{
+    top: 0;
+    right: 0;
+}
+.BlockContentBorderBLSignIn
+{
+    bottom: 0;
+    left: 0;
+}
+.BlockContentBorderBRSignIn
+{
+    bottom: 0;
+    right: 0;
+}
+.BlockContentBorderTSignIn, .BlockContentBorderBSignIn
+{
+    left: 20px;
+    right: 20px;
+    height: 20px;
+}
+.BlockContentBorderTSignIn
+{
+    top: 0;
+    background-image: url('images/BlockContentBorderHorizontalS.png');
+}
+.BlockContentBorderBSignIn
+{
+    bottom: 0;
+}
+.BlockContentBorderBSignIn div
+{
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    height: 40px;
+    width: 100%;
+    background-image: url('images/BlockContentBorderHorizontalS.png');
+}
+.BlockContentBorderLSignIn, .BlockContentBorderRSignIn
+{
+    top: 20px;
+    bottom: 20px;
+    width: 20px;
+}
+.BlockContentBorderLSignIn
+{
+    left: 0;
+    background-image: url('images/BlockContentBorderVerticalS.png');
+}
+.BlockContentBorderRSignIn
+{
+    right: 0;
+}
+.BlockContentBorderRSignIn div
+{
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    width: 40px;
+    height: 100%;
+    background-image: url('images/BlockContentBorderVerticalS.png');
+}
+.BlockContentBorderCSignIn
+{
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
+    background-image: url('images/BlockContentBorderCenterS.png');
+}
+
+.RushTideLink
+{
+    text-align: center;
+    vertical-align: bottom;
+    display: block;
+    font-size: 11px;
+    padding: 210px 0 12px;
+    color: #FFF;
+}
+.RushTideLink a
+{
+    color: #FFF;
+}
+
+.news-container
+{
+    color: #000000;
+}
+
+.news-container ul
+{
+    direction: rtl;
+    list-style-type: none;
+    text-align: right;
+}
+
+.hebrew
+{
+    direction: rtl;
+}
+
+.english
+{
+    direction: ltr;
+}
+
+.holder
+{
+}
+
+.osX .jScrollPaneTrack
+{
+    background: url(images/osx_track.gif) repeat-y;
+}
+.osX .jScrollPaneDrag
+{
+    background: url(images/middle.gif) repeat;
+}
+.osX .jScrollPaneDragTop
+{
+    background: url(images/top.gif) no-repeat;
+    height: 6px;
+}
+.osX .jScrollPaneDragBottom
+{
+    background: url(images/bottom.gif) no-repeat;
+    height: 7px;
+}
+
+.osX a.jScrollArrowDown:hover
+{
+    background-position: 0 0;
+}
+
+/* IE SPECIFIC HACKED STYLES */
+* html .osX .jScrollPaneDragBottom
+{
+    bottom: -1px;
+}
+/* /IE SPECIFIC HACKED STYLES */
+
+
+.jScrollPaneContainer
+{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.jScrollPaneTrack
+{
+    position: absolute;
+    cursor: pointer;
+    right: 4px;
+    top: 0;
+    height: 100%;
+    background: #aaa;
+}
+.jScrollPaneDrag
+{
+    position: absolute;
+    background: #666;
+    cursor: pointer;
+    overflow: hidden;
+}
+.jScrollPaneDragTop
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.jScrollPaneDragBottom
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.insideTextLead
+{
+    direction: rtl;
+    text-align: center;
+}
+
+.space1
+{
+    height: 10px;
+}
+
+.space2
+{
+    height: 10px;
+}
+
+.space3
+{
+    height: 45px;
+}
+
+.space4
+{
+    height: 20px;
+}
+
+.gradYearSelectGra
+{
+}
+
+.gradYearSelect
+{
+}
+
+.graTD
+{
+}
+
+.insideTD
+{
+    direction: rtl;
+    text-align: right;
+}
+
+.graduate
+{
+    border-color: Black;
+    text-align: center;
+}
+
