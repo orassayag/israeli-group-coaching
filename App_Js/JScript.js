@@ -1,9 +1,9 @@
-﻿$(function() {
+﻿$(function () {
     $('.news-container').vTicker();
 });
 
-(function() {
-    $.fn.vTicker = function(options) {
+(function () {
+    $.fn.vTicker = function (options) {
         var defaults = {
             speed: 4000,
             pause: 6000,
@@ -14,11 +14,11 @@
 
         var options = $.extend(defaults, options);
 
-        moveUp = function(obj, height) {
+        moveUp = function (obj, height) {
             obj = obj.children('ul');
             first = obj.children('li:first').clone(true);
 
-            obj.animate({ top: '-=' + height + 'px' }, options.speed, function() {
+            obj.animate({ top: '-=' + height + 'px' }, options.speed, function () {
                 $(this).children('li:first').remove();
                 $(this).css('top', '0px');
             });
@@ -31,21 +31,21 @@
             first.appendTo(obj);
         };
 
-        return this.each(function() {
+        return this.each(function () {
             obj = $(this);
             maxHeight = 95;
 
             obj.css({ overflow: 'hidden', position: 'relative' })
-			.children('ul').css({ position: 'absolute', margin: 0, padding: 0 })
-			.children('li').css({ margin: 0, padding: 0 });
+                .children('ul').css({ position: 'absolute', margin: 0, padding: 0 })
+                .children('li').css({ margin: 0, padding: 0 });
 
-            obj.children('ul').children('li').each(function() {
+            obj.children('ul').children('li').each(function () {
                 if ($(this).height() > maxHeight) {
                     maxHeight = 95;
                 }
             });
 
-            obj.children('ul').children('li').each(function() {
+            obj.children('ul').children('li').each(function () {
                 $(this).height(maxHeight);
             });
 
@@ -54,9 +54,9 @@
             interval = setInterval('moveUp(obj, maxHeight)', options.pause);
 
             if (options.mousePause) {
-                obj.bind("mouseenter", function() {
+                obj.bind("mouseenter", function () {
                     clearInterval(interval);
-                }).bind("mouseleave", function() {
+                }).bind("mouseleave", function () {
                     interval = setInterval('moveUp(obj, maxHeight)', options.pause);
                 });
             }

@@ -1,5 +1,5 @@
-html, body
-{
+html,
+body {
     font-family: Tahoma;
     margin: 0;
     padding: 0;
@@ -8,21 +8,18 @@ html, body
     height: 100%;
 }
 
-#background
-{
+#background {
     position: fixed;
     width: 150%;
     height: 100%;
 }
 
-#content
-{
+#content {
     position: relative;
     z-index: 1;
 }
 
-.HeaderTitle
-{
+.HeaderTitle {
     position: relative;
     height: 97px;
     background-color: #FFFFFF;
@@ -33,18 +30,16 @@ html, body
     width: 100%;
 }
 
-.HeaderTitle img
-{
+.HeaderTitle img {
     margin-right: 20px;
 }
 
-ul
-{
+ul {
     margin: 5px;
     padding-left: 20px;
 }
-.BodyContent
-{
+
+.BodyContent {
     position: relative;
     left: 0;
     top: 0;
@@ -52,14 +47,13 @@ ul
     margin: 0 auto 0 auto;
 }
 
-.Menu
-{
+.Menu {
     margin: 15px;
     text-align: right;
     vertical-align: middle;
 }
-.Menu ul
-{
+
+.Menu ul {
     margin-top: 5px;
     margin-left: -8px;
     position: absolute;
@@ -72,48 +66,45 @@ ul
     padding-left: 0px;
     color: #000000;
 }
-.Menu li
-{
+
+.Menu li {
     display: inline;
     padding: 3px;
     margin: 0;
 }
 
-.Menu a
-{
+.Menu a {
     color: #000000;
     text-decoration: none;
 }
 
 
-.Columns
-{
+.Columns {
     overflow: hidden;
 }
-.Column1
-{
+
+.Column1 {
     overflow: hidden;
     float: left;
     width: 20%;
 }
-.Column2
-{
+
+.Column2 {
     overflow: hidden;
     float: right;
     width: 20%;
     padding: 10px;
 }
-.MainColumn
-{
+
+.MainColumn {
     overflow: hidden;
 }
-img
-{
+
+img {
     border: 0;
 }
 
-.Article
-{
+.Article {
     position: relative;
     z-index: 1;
     padding: 11px 11px 11px 11px;
@@ -122,40 +113,53 @@ img
     height: 310px;
 }
 
-.ArticleBorder
-{
+.ArticleBorder {
     z-index: 0;
     position: relative;
     margin: 0px 16px 0px 34px;
 }
-.ArticleTL, .ArticleTR, .ArticleBL, .ArticleBR, .ArticleU, .ArticleL, .ArticleH, .ArticleT, .ArticleG, .ArticleR, .ArticleB, .ArticleC
-{
+
+.ArticleTL,
+.ArticleTR,
+.ArticleBL,
+.ArticleBR,
+.ArticleU,
+.ArticleL,
+.ArticleH,
+.ArticleT,
+.ArticleG,
+.ArticleR,
+.ArticleB,
+.ArticleC {
     position: absolute;
     z-index: -1;
     overflow: hidden;
 }
 
-.ArticleTL, .ArticleTR, .ArticleBL, .ArticleBR
-{
+.ArticleTL,
+.ArticleTR,
+.ArticleBL,
+.ArticleBR {
     width: 15px;
     height: 15px;
 }
-.ArticleTL
-{
+
+.ArticleTL {
     top: 0;
     left: 0;
     background-image: url('images/ArticleCornersO.png');
 }
-.ArticleBL div, .ArticleBR div
-{
+
+.ArticleBL div,
+.ArticleBR div {
     height: 30px;
     width: 30px;
     position: absolute;
     z-index: -1;
     background-image: url('images/ArticleCorners.png');
 }
-.ArticleTR div
-{
+
+.ArticleTR div {
     height: 30px;
     width: 30px;
     position: absolute;
@@ -163,47 +167,48 @@ img
     background-image: url('images/ArticleCornersO.png');
     left: -15px;
 }
-.ArticleBL div
-{
+
+.ArticleBL div {
     top: -15px;
 }
-.ArticleBR div
-{
+
+.ArticleBR div {
     left: -15px;
     top: -15px;
 }
-.ArticleTR
-{
+
+.ArticleTR {
     top: 0;
     right: 0;
 }
-.ArticleBL
-{
+
+.ArticleBL {
     bottom: 0;
     left: 0;
 }
-.ArticleBR
-{
+
+.ArticleBR {
     bottom: 0;
     right: 0;
 }
-.ArticleT, .ArticleB
-{
+
+.ArticleT,
+.ArticleB {
     left: 15px;
     right: 15px;
     height: 15px;
 }
-.ArticleT
-{
+
+.ArticleT {
     top: 0;
     background-image: url('images/ArticleHorizontalO.png');
 }
-.ArticleB
-{
+
+.ArticleB {
     bottom: 0px;
 }
-.ArticleB div
-{
+
+.ArticleB div {
     position: absolute;
     z-index: -1;
     top: -15px;
@@ -211,32 +216,33 @@ img
     width: 100%;
     background-image: url('images/ArticleHorizontal.png');
 }
-.ArticleL, .ArticleR, .ArticleG, .ArticleH
-{
+
+.ArticleL,
+.ArticleR,
+.ArticleG,
+.ArticleH {
     top: 15px;
     bottom: 15px;
     width: 15px;
 }
-.ArticleL
-{
+
+.ArticleL {
     left: 0;
     background-image: url('images/ArticleVerticalO.png');
     height: 6%;
 }
 
-.ArticleH
-{
+.ArticleH {
     left: 0;
     background-image: url('images/ArticleVertical.png');
     height: 95%;
 }
 
-.ArticleR
-{
+.ArticleR {
     right: 0;
 }
-.ArticleR div
-{
+
+.ArticleR div {
     position: absolute;
     z-index: -1;
     left: -15px;
@@ -245,13 +251,11 @@ img
     background-image: url('images/ArticleVerticalO.png');
 }
 
-.ArticleG
-{
+.ArticleG {
     right: 0;
 }
 
-.ArticleG div
-{
+.ArticleG div {
     position: absolute;
     z-index: -1;
     left: -15px;
@@ -260,8 +264,7 @@ img
     background-image: url('images/ArticleVertical.png');
 }
 
-.ArticleC
-{
+.ArticleC {
     left: 15px;
     top: 15px;
     right: 15px;
@@ -271,8 +274,7 @@ img
     z-index: -1;
 }
 
-.ArticleU
-{
+.ArticleU {
     left: 7px;
     top: 31px;
     right: 7px;
@@ -282,21 +284,21 @@ img
     z-index: 1;
 }
 
-.Article h2
-{
+.Article h2 {
     color: #000;
     font-size: 24px;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
 }
-.Article h2 a, .Article h2 a:visited
-{
+
+.Article h2 a,
+.Article h2 a:visited {
     color: #000;
     text-decoration: none;
 }
-.Article h2 a:hover
-{
+
+.Article h2 a:hover {
     text-decoration: underline;
 }
 
@@ -304,8 +306,7 @@ img
 
 /*News*/
 
-.BlockNews
-{
+.BlockNews {
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -314,97 +315,111 @@ img
     font-size: 16px;
     font-weight: bold;
 }
-.BlockNews a
-{
+
+.BlockNews a {
     color: #494900;
     text-decoration: underline;
 }
-.BlockNews a:visited
-{
+
+.BlockNews a:visited {
     color: #494900;
     text-decoration: underline;
 }
-.BlockNews a:hover
-{
+
+.BlockNews a:hover {
     color: #000;
     text-decoration: none;
 }
-.BlockBorderNews
-{
+
+.BlockBorderNews {
     z-index: 0;
     position: relative;
     margin: 0;
 }
-.BlockTLNews, .BlockTRNews, .BlockBLNews, .BlockBRNews, .BlockLNews, .BlockTNews, .BlockRNews, .BlockBNews, .BlockCNews
-{
+
+.BlockTLNews,
+.BlockTRNews,
+.BlockBLNews,
+.BlockBRNews,
+.BlockLNews,
+.BlockTNews,
+.BlockRNews,
+.BlockBNews,
+.BlockCNews {
     position: absolute;
     z-index: -1;
     overflow: hidden;
 }
-.BlockTLNews, .BlockTRNews, .BlockBLNews, .BlockBRNews
-{
+
+.BlockTLNews,
+.BlockTRNews,
+.BlockBLNews,
+.BlockBRNews {
     width: 32px;
     height: 32px;
 }
-.BlockTLNews
-{
+
+.BlockTLNews {
     top: 0;
     left: 0;
     background-image: url('images/BlockCornersN.png');
 }
-.BlockTRNews div, .BlockBLNews div, .BlockBRNews div
-{
+
+.BlockTRNews div,
+.BlockBLNews div,
+.BlockBRNews div {
     height: 64px;
     width: 64px;
     position: absolute;
     z-index: -1;
     background-image: url('images/BlockCornersN.png');
 }
-.BlockTRNews div
-{
+
+.BlockTRNews div {
     left: -32px;
 }
-.BlockBLNews div
-{
+
+.BlockBLNews div {
     top: -32px;
 }
-.BlockBRNews div
-{
+
+.BlockBRNews div {
     left: -32px;
     top: -32px;
 }
-.BlockTRNews
-{
+
+.BlockTRNews {
     top: 0;
     right: 0;
 }
-.BlockBLNews
-{
+
+.BlockBLNews {
     bottom: 0;
     left: 0;
 }
-.BlockBRNews
-{
+
+.BlockBRNews {
     bottom: 0;
     right: 0;
 }
-.BlockTNews, .BlockBNews
-{
+
+.BlockTNews,
+.BlockBNews {
     left: 32px;
     right: 32px;
     height: 32px;
 }
-.BlockTNews
-{
+
+.BlockTNews {
     top: 0;
     background-image: url('images/BlockHorizontalN.png');
 }
-.BlockBNews
-{
+
+.BlockBNews {
     bottom: 0;
 }
-.BlockBNews div
-{
+
+.BlockBNews div {
     position: absolute;
     z-index: -1;
     top: -32px;
@@ -412,23 +427,24 @@ img
     width: 100%;
     background-image: url('images/BlockHorizontalN.png');
 }
-.BlockLNews, .BlockRNews
-{
+
+.BlockLNews,
+.BlockRNews {
     top: 32px;
     bottom: 32px;
     width: 32px;
 }
-.BlockLNews
-{
+
+.BlockLNews {
     left: 0;
     background-image: url('images/BlockVerticalN.png');
 }
-.BlockRNews
-{
+
+.BlockRNews {
     right: 0;
 }
-.BlockRNews div
-{
+
+.BlockRNews div {
     position: absolute;
     z-index: -1;
     left: -32px;
@@ -436,16 +452,16 @@ img
     height: 100%;
     background-image: url('images/BlockVerticalN.png');
 }
-.BlockCNews
-{
+
+.BlockCNews {
     left: 32px;
     top: 32px;
     right: 32px;
     bottom: 32px;
     background-image: url('images/BlockCenterN.png');
 }
-.BlockHeaderNews
-{
+
+.BlockHeaderNews {
     border: 0;
     margin: 0;
     background: transparent url('images/BlockHeaderAnchorN.png') no-repeat top left;
@@ -459,8 +475,8 @@ img
     font-weight: bold;
     vertical-align: middle;
 }
-.BlockHeaderNews span
-{
+
+.BlockHeaderNews span {
     border: 0;
     margin: 0;
     background: transparent url('images/BlockHeaderN.png') no-repeat right top;
@@ -469,16 +485,16 @@ img
     color: #212121;
     line-height: 18px;
 }
-.BlockHeaderNews span
-{
+
+.BlockHeaderNews span {
     padding: 5px 18px 5px 0;
 }
-.BlockHeaderNews
-{
+
+.BlockHeaderNews {
     margin: 0;
 }
-.BlockContentBorderNews
-{
+
+.BlockContentBorderNews {
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -487,97 +503,111 @@ img
     font-size: 14px;
     height: 150px;
 }
-.BlockContentBorderNews a
-{
+
+.BlockContentBorderNews a {
     color: #660;
     text-decoration: underline;
 }
-.BlockContentBorderNews a:visited
-{
+
+.BlockContentBorderNews a:visited {
     color: #660;
     text-decoration: underline;
 }
-.BlockContentBorderNews a:hover
-{
+
+.BlockContentBorderNews a:hover {
     color: #000;
     text-decoration: none;
 }
-.BlockContentBorderBorderNews
-{
+
+.BlockContentBorderBorderNews {
     z-index: 0;
     position: relative;
     margin: 0;
 }
-.BlockContentBorderTLNews, .BlockContentBorderTRNews, .BlockContentBorderBLNews, .BlockContentBorderBRNews, .BlockContentBorderLNews, .BlockContentBorderTNews, .BlockContentBorderRNews, .BlockContentBorderBNews, .BlockContentBorderCNews
-{
+
+.BlockContentBorderTLNews,
+.BlockContentBorderTRNews,
+.BlockContentBorderBLNews,
+.BlockContentBorderBRNews,
+.BlockContentBorderLNews,
+.BlockContentBorderTNews,
+.BlockContentBorderRNews,
+.BlockContentBorderBNews,
+.BlockContentBorderCNews {
     position: absolute;
     z-index: -1;
     overflow: hidden;
 }
-.BlockContentBorderTLNews, .BlockContentBorderTRNews, .BlockContentBorderBLNews, .BlockContentBorderBRNews
-{
+
+.BlockContentBorderTLNews,
+.BlockContentBorderTRNews,
+.BlockContentBorderBLNews,
+.BlockContentBorderBRNews {
     width: 20px;
     height: 20px;
 }
-.BlockContentBorderTLNews
-{
+
+.BlockContentBorderTLNews {
     top: 0;
     left: 0;
     background-image: url('images/BlockContentBorderCornersN.png');
 }
-.BlockContentBorderTRNews div, .BlockContentBorderBLNews div, .BlockContentBorderBRNews div
-{
+
+.BlockContentBorderTRNews div,
+.BlockContentBorderBLNews div,
+.BlockContentBorderBRNews div {
     height: 40px;
     width: 40px;
     position: absolute;
     z-index: -1;
     background-image: url('images/BlockContentBorderCornersN.png');
 }
-.BlockContentBorderTRNews div
-{
+
+.BlockContentBorderTRNews div {
     left: -20px;
 }
-.BlockContentBorderBLNews div
-{
+
+.BlockContentBorderBLNews div {
     top: -20px;
 }
-.BlockContentBorderBRNews div
-{
+
+.BlockContentBorderBRNews div {
     left: -20px;
     top: -20px;
 }
-.BlockContentBorderTRNews
-{
+
+.BlockContentBorderTRNews {
     top: 0;
     right: 0;
 }
-.BlockContentBorderBLNews
-{
+
+.BlockContentBorderBLNews {
     bottom: 0;
     left: 0;
 }
-.BlockContentBorderBRNews
-{
+
+.BlockContentBorderBRNews {
     bottom: 0;
     right: 0;
 }
-.BlockContentBorderTNews, .BlockContentBorderBNews
-{
+
+.BlockContentBorderTNews,
+.BlockContentBorderBNews {
     left: 20px;
     right: 20px;
     height: 20px;
 }
-.BlockContentBorderTNews
-{
+
+.BlockContentBorderTNews {
     top: 0;
     background-image: url('images/BlockContentBorderHorizontalN.png');
 }
-.BlockContentBorderBNews
-{
+
+.BlockContentBorderBNews {
     bottom: 0;
 }
-.BlockContentBorderBNews div
-{
+
+.BlockContentBorderBNews div {
     position: absolute;
     z-index: -1;
     top: -20px;
@@ -585,23 +615,24 @@ img
     width: 100%;
     background-image: url('images/BlockContentBorderHorizontalN.png');
 }
-.BlockContentBorderLNews, .BlockContentBorderRNews
-{
+
+.BlockContentBorderLNews,
+.BlockContentBorderRNews {
     top: 20px;
     bottom: 20px;
     width: 20px;
 }
-.BlockContentBorderLNews
-{
+
+.BlockContentBorderLNews {
     left: 0;
     background-image: url('images/BlockContentBorderVerticalN.png');
 }
-.BlockContentBorderRNews
-{
+
+.BlockContentBorderRNews {
     right: 0;
 }
-.BlockContentBorderRNews div
-{
+
+.BlockContentBorderRNews div {
     position: absolute;
     z-index: -1;
     left: -20px;
@@ -609,8 +640,8 @@ img
     height: 100%;
     background-image: url('images/BlockContentBorderVerticalN.png');
 }
-.BlockContentBorderCNews
-{
+
+.BlockContentBorderCNews {
     left: 15px;
     top: 15px;
     right: 15px;
@@ -619,8 +650,7 @@ img
 }
 
 /*Sign In*/
-.BlockSignIn
-{
+.BlockSignIn {
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -628,97 +658,111 @@ img
     color: #000;
     font-size: 16px;
 }
-.BlockSignIn a
-{
+
+.BlockSignIn a {
     color: #494900;
     text-decoration: underline;
 }
-.BlockSignIn a:visited
-{
+
+.BlockSignIn a:visited {
     color: #494900;
     text-decoration: underline;
 }
-.BlockSignIn a:hover
-{
+
+.BlockSignIn a:hover {
     color: #000;
     text-decoration: none;
 }
-.BlockBorderSignIn
-{
+
+.BlockBorderSignIn {
     z-index: 0;
     position: relative;
     margin: 0;
 }
-.BlockTLSignIn, .BlockTRSignIn, .BlockBLSignIn, .BlockBRSignIn, .BlockLSignIn, .BlockTSignIn, .BlockRSignIn, .BlockBSignIn, .BlockCSignIn
-{
+
+.BlockTLSignIn,
+.BlockTRSignIn,
+.BlockBLSignIn,
+.BlockBRSignIn,
+.BlockLSignIn,
+.BlockTSignIn,
+.BlockRSignIn,
+.BlockBSignIn,
+.BlockCSignIn {
     position: absolute;
     z-index: -1;
     overflow: hidden;
 }
-.BlockTLSignIn, .BlockTRSignIn, .BlockBLSignIn, .BlockBRSignIn
-{
+
+.BlockTLSignIn,
+.BlockTRSignIn,
+.BlockBLSignIn,
+.BlockBRSignIn {
     width: 32px;
     height: 32px;
 }
-.BlockTLSignIn
-{
+
+.BlockTLSignIn {
     top: 0;
     left: 0;
     background-image: url('images/BlockCornersS.png');
 }
-.BlockTRSignIn div, .BlockBLSignIn div, .BlockBRSignIn div
-{
+
+.BlockTRSignIn div,
+.BlockBLSignIn div,
+.BlockBRSignIn div {
     height: 64px;
     width: 64px;
     position: absolute;
     z-index: -1;
     background-image: url('images/BlockCornersS.png');
 }
-.BlockTRSignIn div
-{
+
+.BlockTRSignIn div {
     left: -32px;
 }
-.BlockBLSignIn div
-{
+
+.BlockBLSignIn div {
     top: -32px;
 }
-.BlockBRSignIn div
-{
+
+.BlockBRSignIn div {
     left: -32px;
     top: -32px;
 }
-.BlockTRSignIn
-{
+
+.BlockTRSignIn {
     top: 0;
     right: 0;
 }
-.BlockBLSignIn
-{
+
+.BlockBLSignIn {
     bottom: 0;
     left: 0;
 }
-.BlockBRSignIn
-{
+
+.BlockBRSignIn {
     bottom: 0;
     right: 0;
 }
-.BlockTSignIn, .BlockBSignIn
-{
+
+.BlockTSignIn,
+.BlockBSignIn {
     left: 32px;
     right: 32px;
     height: 32px;
 }
-.BlockTSignIn
-{
+
+.BlockTSignIn {
     top: 0;
     background-image: url('images/BlockHorizontalS.png');
 }
-.BlockBSignIn
-{
+
+.BlockBSignIn {
     bottom: 0;
 }
-.BlockBSignIn div
-{
+
+.BlockBSignIn div {
     position: absolute;
     z-index: -1;
     top: -32px;
@@ -726,23 +770,24 @@ img
     width: 100%;
     background-image: url('images/BlockHorizontalS.png');
 }
-.BlockLSignIn, .BlockRSignIn
-{
+
+.BlockLSignIn,
+.BlockRSignIn {
     top: 32px;
     bottom: 32px;
     width: 32px;
 }
-.BlockLSignIn
-{
+
+.BlockLSignIn {
     left: 0;
     background-image: url('images/BlockVerticalS.png');
 }
-.BlockRSignIn
-{
+
+.BlockRSignIn {
     right: 0;
 }
-.BlockRSignIn div
-{
+
+.BlockRSignIn div {
     position: absolute;
     z-index: -1;
     left: -32px;
@@ -750,16 +795,16 @@ img
     height: 100%;
     background-image: url('images/BlockVerticalS.png');
 }
-.BlockCSignIn
-{
+
+.BlockCSignIn {
     left: 32px;
     top: 32px;
     right: 32px;
     bottom: 32px;
     background-image: url('images/BlockCenterS.png');
 }
-.BlockHeaderSignIn
-{
+
+.BlockHeaderSignIn {
     border: 0;
     margin: 0;
     background: transparent url('images/BlockHeaderAnchorS.png') no-repeat top left;
@@ -773,8 +818,8 @@ img
     font-weight: bold;
     vertical-align: middle;
 }
-.BlockHeaderSignIn span
-{
+
+.BlockHeaderSignIn span {
     border: 0;
     margin: 0;
     background: transparent url('images/BlockHeaderS.png') no-repeat right top;
@@ -783,16 +828,16 @@ img
     color: #212121;
     line-height: 18px;
 }
-.BlockHeaderSignIn span
-{
+
+.BlockHeaderSignIn span {
     padding: 5px 18px 5px 0;
 }
-.BlockHeaderSignIn
-{
+
+.BlockHeaderSignIn {
     margin: 0;
 }
-.BlockContentBorderSignIn
-{
+
+.BlockContentBorderSignIn {
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -803,97 +848,111 @@ img
     height: 164px;
     direction: rtl;
 }
-.BlockContentBorderSignIn a
-{
+
+.BlockContentBorderSignIn a {
     color: #660;
     text-decoration: underline;
 }
-.BlockContentBorderSignIn a:visited
-{
+
+.BlockContentBorderSignIn a:visited {
     color: #660;
     text-decoration: underline;
 }
-.BlockContentBorderSignIn a:hover
-{
+
+.BlockContentBorderSignIn a:hover {
     color: #000;
     text-decoration: none;
 }
-.BlockContentBorderBorderSignIn
-{
+
+.BlockContentBorderBorderSignIn {
     z-index: 0;
     position: relative;
     margin: 0;
 }
-.BlockContentBorderTLSignIn, .BlockContentBorderTRSignIn, .BlockContentBorderBLSignIn, .BlockContentBorderBRSignIn, .BlockContentBorderLSignIn, .BlockContentBorderTSignIn, .BlockContentBorderRSignIn, .BlockContentBorderBSignIn, .BlockContentBorderCSignIn
-{
+
+.BlockContentBorderTLSignIn,
+.BlockContentBorderTRSignIn,
+.BlockContentBorderBLSignIn,
+.BlockContentBorderBRSignIn,
+.BlockContentBorderLSignIn,
+.BlockContentBorderTSignIn,
+.BlockContentBorderRSignIn,
+.BlockContentBorderBSignIn,
+.BlockContentBorderCSignIn {
     position: absolute;
     z-index: -1;
     overflow: hidden;
 }
-.BlockContentBorderTLSignIn, .BlockContentBorderTRSignIn, .BlockContentBorderBLSignIn, .BlockContentBorderBRSignIn
-{
+
+.BlockContentBorderTLSignIn,
+.BlockContentBorderTRSignIn,
+.BlockContentBorderBLSignIn,
+.BlockContentBorderBRSignIn {
     width: 20px;
     height: 20px;
 }
-.BlockContentBorderTLSignIn
-{
+
+.BlockContentBorderTLSignIn {
     top: 0;
     left: 0;
     background-image: url('images/BlockContentBorderCornersS.png');
 }
-.BlockContentBorderTRSignIn div, .BlockContentBorderBLSignIn div, .BlockContentBorderBRSignIn div
-{
+
+.BlockContentBorderTRSignIn div,
+.BlockContentBorderBLSignIn div,
+.BlockContentBorderBRSignIn div {
     height: 40px;
     width: 40px;
     position: absolute;
     z-index: -1;
     background-image: url('images/BlockContentBorderCornersS.png');
 }
-.BlockContentBorderTRSignIn div
-{
+
+.BlockContentBorderTRSignIn div {
     left: -20px;
 }
-.BlockContentBorderBLSignIn div
-{
+
+.BlockContentBorderBLSignIn div {
     top: -20px;
 }
-.BlockContentBorderBRSignIn div
-{
+
+.BlockContentBorderBRSignIn div {
     left: -20px;
     top: -20px;
 }
-.BlockContentBorderTRSignIn
-{
+
+.BlockContentBorderTRSignIn {
     top: 0;
     right: 0;
 }
-.BlockContentBorderBLSignIn
-{
+
+.BlockContentBorderBLSignIn {
     bottom: 0;
     left: 0;
 }
-.BlockContentBorderBRSignIn
-{
+
+.BlockContentBorderBRSignIn {
     bottom: 0;
     right: 0;
 }
-.BlockContentBorderTSignIn, .BlockContentBorderBSignIn
-{
+
+.BlockContentBorderTSignIn,
+.BlockContentBorderBSignIn {
     left: 20px;
     right: 20px;
     height: 20px;
 }
-.BlockContentBorderTSignIn
-{
+
+.BlockContentBorderTSignIn {
     top: 0;
     background-image: url('images/BlockContentBorderHorizontalS.png');
 }
-.BlockContentBorderBSignIn
-{
+
+.BlockContentBorderBSignIn {
     bottom: 0;
 }
-.BlockContentBorderBSignIn div
-{
+
+.BlockContentBorderBSignIn div {
     position: absolute;
     z-index: -1;
     top: -20px;
@@ -901,23 +960,24 @@ img
     width: 100%;
     background-image: url('images/BlockContentBorderHorizontalS.png');
 }
-.BlockContentBorderLSignIn, .BlockContentBorderRSignIn
-{
+
+.BlockContentBorderLSignIn,
+.BlockContentBorderRSignIn {
     top: 20px;
     bottom: 20px;
     width: 20px;
 }
-.BlockContentBorderLSignIn
-{
+
+.BlockContentBorderLSignIn {
     left: 0;
     background-image: url('images/BlockContentBorderVerticalS.png');
 }
-.BlockContentBorderRSignIn
-{
+
+.BlockContentBorderRSignIn {
     right: 0;
 }
-.BlockContentBorderRSignIn div
-{
+
+.BlockContentBorderRSignIn div {
     position: absolute;
     z-index: -1;
     left: -20px;
@@ -925,8 +985,8 @@ img
     height: 100%;
     background-image: url('images/BlockContentBorderVerticalS.png');
 }
-.BlockContentBorderCSignIn
-{
+
+.BlockContentBorderCSignIn {
     left: 15px;
     top: 15px;
     right: 15px;
@@ -934,8 +994,7 @@ img
     background-image: url('images/BlockContentBorderCenterS.png');
 }
 
-.RushTideLink
-{
+.RushTideLink {
     text-align: center;
     vertical-align: bottom;
     display: block;
@@ -943,78 +1002,68 @@ img
     padding: 210px 0 12px;
     color: #FFF;
 }
-.RushTideLink a
-{
+
+.RushTideLink a {
     color: #FFF;
 }
 
-.news-container
-{
+.news-container {
     color: #000000;
 }
 
-.news-container ul
-{
+.news-container ul {
     direction: rtl;
     list-style-type: none;
     text-align: right;
 }
 
-.hebrew
-{
+.hebrew {
     direction: rtl;
 }
 
-.english
-{
+.english {
     direction: ltr;
 }
 
-.holder
-{
-}
+.holder {}
 
-.osX .jScrollPaneTrack
-{
+.osX .jScrollPaneTrack {
     background: url(images/osx_track.gif) repeat-y;
 }
-.osX .jScrollPaneDrag
-{
+
+.osX .jScrollPaneDrag {
     background: url(images/middle.gif) repeat;
 }
-.osX .jScrollPaneDragTop
-{
+
+.osX .jScrollPaneDragTop {
     background: url(images/top.gif) no-repeat;
     height: 6px;
 }
-.osX .jScrollPaneDragBottom
-{
+
+.osX .jScrollPaneDragBottom {
     background: url(images/bottom.gif) no-repeat;
     height: 7px;
 }
 
-.osX a.jScrollArrowDown:hover
-{
+.osX a.jScrollArrowDown:hover {
     background-position: 0 0;
 }
 
 /* IE SPECIFIC HACKED STYLES */
-* html .osX .jScrollPaneDragBottom
-{
+* html .osX .jScrollPaneDragBottom {
     bottom: -1px;
 }
+
 /* /IE SPECIFIC HACKED STYLES */
 
 
-.jScrollPaneContainer
-{
+.jScrollPaneContainer {
     position: relative;
     overflow: hidden;
     z-index: 1;
 }
 
-.jScrollPaneTrack
-{
+.jScrollPaneTrack {
     position: absolute;
     cursor: pointer;
     right: 4px;
@@ -1022,74 +1071,61 @@ img
     height: 100%;
     background: #aaa;
 }
-.jScrollPaneDrag
-{
+
+.jScrollPaneDrag {
     position: absolute;
     background: #666;
     cursor: pointer;
     overflow: hidden;
 }
-.jScrollPaneDragTop
-{
+
+.jScrollPaneDragTop {
     position: absolute;
     top: 0;
     left: 0;
     overflow: hidden;
 }
-.jScrollPaneDragBottom
-{
+
+.jScrollPaneDragBottom {
     position: absolute;
     bottom: 0;
     left: 0;
     overflow: hidden;
 }
 
-.insideTextLead
-{
+.insideTextLead {
     direction: rtl;
     text-align: center;
 }
 
-.space1
-{
+.space1 {
     height: 10px;
 }
 
-.space2
-{
+.space2 {
     height: 10px;
 }
 
-.space3
-{
+.space3 {
     height: 45px;
 }
 
-.space4
-{
+.space4 {
     height: 20px;
 }
 
-.gradYearSelectGra
-{
-}
+.gradYearSelectGra {}
 
-.gradYearSelect
-{
-}
+.gradYearSelect {}
 
-.graTD
-{
-}
+.graTD {}
 
-.insideTD
-{
+.insideTD {
     direction: rtl;
     text-align: right;
 }
 
-.graduate
-{
+.graduate {
     border-color: Black;
     text-align: center;
 }
