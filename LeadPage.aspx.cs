@@ -52,7 +52,7 @@ public partial class LeadPage : System.Web.UI.Page
 
             this.Master._CoachingDal.Add("lead", l, TimeNow.TheTimeNow);
             this.Master._Logger.Log(new AdminException(". Lead " + title +
-                        "Was Successfully Recived"), MethodBase.GetCurrentMethod().Name);
+                        "Was Successfully Received"), MethodBase.GetCurrentMethod().Name);
             this.leadLabel.ForeColor = Color.Blue;
             this.leadLabel.Text = "ההודעה נשלחה בהצלחה";
 

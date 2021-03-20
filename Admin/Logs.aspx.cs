@@ -288,7 +288,7 @@ public partial class Admin_Logs : System.Web.UI.Page
                 //no logs to read
                 break;
             case "58":
-                //faild to read log
+                //failed to read log
                 break;
             case "60":
                 //delete all logs
@@ -352,7 +352,7 @@ public partial class Admin_Logs : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.logsNotifyLabel.ForeColor = Color.Red;
-            this.logsNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.logsNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

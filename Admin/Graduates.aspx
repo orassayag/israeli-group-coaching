@@ -39,7 +39,7 @@
                                 <br />
                                 <asp:Button ID="graduatesSaveSession" Text="Save" runat="server" OnClick="graduatesSaveSession_Click"
                                     OnClientClick="return graduateCheck('session')" />
-                                <asp:Button ID="graduatesCancelSession" Text="Cacnel" runat="server" OnClick="graduatesCancelSession_Click" />
+                                <asp:Button ID="graduatesCancelSession" Text="Cancel" runat="server" OnClick="graduatesCancelSession_Click" />
                             </div>
                         </div>
                         <div id="graduatesUpdateRemoveSession" runat="server" class="unVisi" visible="false">
@@ -80,7 +80,7 @@
                                 <br />
                                 <asp:Button ID="graduatesSaveGraduate" Text="Save" runat="server" OnClick="graduatesSaveGraduate_Click"
                                     OnClientClick="return graduateCheck('graduate')" />
-                                <asp:Button ID="graduatesCacnelGraduate" Text="Cacnel" runat="server" OnClick="graduatesCancelGraduate_Click" />
+                                <asp:Button ID="graduatesCancelGraduate" Text="Cancel" runat="server" OnClick="graduatesCancelGraduate_Click" />
                             </div>
                         </div>
                         <div id="graduatesRemoveGraduate" runat="server" class="unVisi" visible="false">

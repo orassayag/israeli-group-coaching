@@ -105,7 +105,7 @@
                                 </table>
                                 <asp:Button ID="articleRemoveButton" runat="server" Text="Delete" OnClick="articleRemoveButton_Click" />
                                 <asp:Button ID="articleUpdateButton" runat="server" Text="Update" OnClick="articleUpdateButton_Click" />
-                                <asp:Button ID="articleCacnelButton" runat="server" Text="Cacnel" OnClick="articleCacnelButton_Click" />
+                                <asp:Button ID="articleCancelButton" runat="server" Text="Cancel" OnClick="articleCancelButton_Click" />
                             </div>
                         </div>
                         <div id="articlesNotify" runat="server" class="unVisi" visible="false">

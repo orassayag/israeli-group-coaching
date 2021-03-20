@@ -54,7 +54,7 @@
                                     <asp:Label ID="newsLabel" Text="" runat="server" CssClass="red"></asp:Label>
                                     <br />
                                     <asp:Button ID="addAddNews" runat="server" Text="Add" OnClick="addAddNews_Click" />
-                                    <asp:Button ID="cancelAddNews" runat="server" Text="Cacnel" OnClick="cancelAddNews_Click" />
+                                    <asp:Button ID="cancelAddNews" runat="server" Text="Cancel" OnClick="cancelAddNews_Click" />
                                     <input id="newsUp" runat="server" type="hidden" value="" />
                                     <input id="newsRe" runat="server" type="hidden" value="" />
                                 </div>
@@ -67,7 +67,7 @@
                                         runat="server">
                                     </asp:DropDownList>
                                     <br />
-                                    <asp:Button ID="cancelRemoveUpdateNews" runat="server" Text="Cacnel" OnClick="cancelRemoveUpdateNews_Click" />
+                                    <asp:Button ID="cancelRemoveUpdateNews" runat="server" Text="Cancel" OnClick="cancelRemoveUpdateNews_Click" />
                                     <asp:Button ID="updateRemoveUpdateNews" runat="server" Text="Update" OnClick="updateRemoveUpdateNews_Click" />
                                     <asp:Button ID="removeRemoveUpdateNews" runat="server" Text="Remove" OnClick="removeRemoveUpdateNews_Click" />
                                 </div>

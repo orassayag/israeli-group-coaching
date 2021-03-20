@@ -50,7 +50,7 @@ public partial class Admin_MailLists : System.Web.UI.Page
                         u = new ListItem("Update Mail", i.ToString());
                         break;
                     case 4:
-                        q = new ListItem("Get All Mailing Addresss", i.ToString());
+                        q = new ListItem("Get All Mailing Addresses", i.ToString());
                         break;
                     case 5:
                         q = new ListItem("Statistics", i.ToString());
@@ -1003,7 +1003,7 @@ public partial class Admin_MailLists : System.Web.UI.Page
 
         StringBuilder build = new StringBuilder("<table><tr><td>Mail " + this.mailTitle.Text + "</td></tr>");
         StringBuilder good = new StringBuilder("<tr><td>Successfully Sent To:</td></tr>");
-        StringBuilder bad = new StringBuilder("<tr><td>Faild To Send To:</td></tr>");
+        StringBuilder bad = new StringBuilder("<tr><td>Failed To Send To:</td></tr>");
         StringBuilder message = new StringBuilder();
 
         if (list.ContainsKey(1))
@@ -1218,7 +1218,7 @@ public partial class Admin_MailLists : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.mailListsNotifyLabel.ForeColor = Color.Red;
-            this.mailListsNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.mailListsNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

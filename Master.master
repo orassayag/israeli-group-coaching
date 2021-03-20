@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head id="Head1" runat="server">
-    <title>дошлж майоеп бчбецд</title>
+    <title>пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</title>
     <link rel="stylesheet" href="style.css" />
 
     <script src="jquery-1.4.2.min.js" type="text/javascript"></script>
@@ -21,7 +21,7 @@
     <script type="text/javascript">
 
         $(function() {
-            // this initialises the demo scollpanes on the page.
+            // this initializes the demo scollpanes on the page.
             $('#pane2').jScrollPane({ showArrows: false, scrollbarWidth: 16, arrowSize: 16 });
         });
 			
@@ -115,18 +115,18 @@
                         <div class="BlockContentBorderCSignIn">
                         </div>
                         <div class="BlockContentBorderSignIn">
-                            дшщод мшщйоъ дъфецд
+                            пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
                             <p>
                             </p>
-                            щн ома:
+                            пїЅпїЅ пїЅпїЅпїЅ:
                             <br />
                             <asp:TextBox ID="getName" CssClass="hebrew" runat="server" Width="130px"></asp:TextBox>
                             <br />
-                            ай-оййм:
+                            пїЅпїЅ-пїЅпїЅпїЅпїЅ:
                             <br />
                             <asp:TextBox ID="getMail" runat="server" CssClass="english" Width="130px"></asp:TextBox>
                             <br />
-                            <asp:Button ID="submitBut" Text="дшщн" runat="server" OnClientClick="return validate()"
+                            <asp:Button ID="submitBut" Text="пїЅпїЅпїЅпїЅ" runat="server" OnClientClick="return validate()"
                                 OnClick="submitBut_OnClick" />
                             <br />
                             <asp:Label ID="messageLabel" runat="server"></asp:Label>

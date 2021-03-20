@@ -796,7 +796,7 @@ public partial class Admin_Graduates : System.Web.UI.Page
                 break;
             case "41":
             case "26":
-                //add Sess
+                //add Session
                 //add Gra
                 this.ClearFields(1);
                 this.ClearFields(5);
@@ -826,12 +826,12 @@ public partial class Admin_Graduates : System.Web.UI.Page
                 this.SelectGraduateDiv(false);
                 this.Start(4);
                 //update Gra
-                //update sess
+                //update session
                 break;
             case "28":
             case "38":
                 //remove Gra
-                //remove Sess
+                //remove Session
                 this.SelectGraduateDiv(false);
                 this.ClearFields(4);
                 this.Start(2);
@@ -928,7 +928,7 @@ public partial class Admin_Graduates : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.graduatesNotifyLabel.ForeColor = Color.Red;
-            this.graduatesNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.graduatesNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

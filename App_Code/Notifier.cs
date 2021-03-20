@@ -19,7 +19,7 @@ public class Notifier
     {
         string message = "";
 
-        //select the norify to present the user
+        //select the notify to present the user
         switch (option)
         {
             case 1:
@@ -41,7 +41,7 @@ public class Notifier
                 message = "Please Enter Mail To Send Admin's UserID And Password";
                 break;
             case 6:
-                message = "Faild To Send An E-Mail To " + valueName + ".\n\rPlease Check The Mail Address, And Try Again.\n\rIf The Problem Continues, Please content The Administrator";
+                message = "Failed To Send An E-Mail To " + valueName + ".\n\rPlease Check The Mail Address, And Try Again.\n\rIf The Problem Continues, Please contact The Administrator";
                 break;
             case 7:
                 message = "A Recover Admin Password And UserID E-Mail To " + valueName + " Was Successfully Sent";
@@ -53,16 +53,16 @@ public class Notifier
                 message = valueName + " Was Successfully Added";
                 break;
             case 10:
-                message = valueName + " Faild To Be Added";
+                message = valueName + " Failed To Be Added";
                 break;
             case 11:
                 message = "Page Already Exist";
                 break;
             case 12:
-                message = "Faild To Add Page " + valueName;
+                message = "Failed To Add Page " + valueName;
                 break;
             case 13:
-                message = "Faild To Update Page " + valueName;
+                message = "Failed To Update Page " + valueName;
                 break;
             case 14:
                 message = "Please Enter Page's Title";
@@ -92,13 +92,13 @@ public class Notifier
                 message = "Please Enter User ID";
                 break;
             case 23:
-                message = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+                message = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
                 break;
             case 24:
                 message = "You Can't Remove " + valueName + ". You Must Have At Least 1 Active Admin";
                 break;
             case 25:
-                message = "Faild To Update " + valueName;
+                message = "Failed To Update " + valueName;
                 break;
             case 26:
                 message = valueName + " Was Successfully Added";
@@ -137,22 +137,22 @@ public class Notifier
                 message = "Are You Sure You Wish To Remove " + valueName + " ?";
                 break;
             case 38:
-                message = "Faild To Remove " + valueName;
+                message = "Failed To Remove " + valueName;
                 break;
             case 39:
-                message = "Faild To Update " + valueName;
+                message = "Failed To Update " + valueName;
                 break;
             case 40:
                 message = "Mail " + valueName + " Already Exist In Mail List";
                 break;
             case 41:
-                message = "Faild To Add " + valueName;
+                message = "Failed To Add " + valueName;
                 break;
             case 42:
-                message = "Faild To Enable " + valueName;
+                message = "Failed To Enable " + valueName;
                 break;
             case 43:
-                message = "Faild To Disable " + valueName;
+                message = "Failed To Disable " + valueName;
                 break;
             case 44:
                 message = "Please Enter Mail's Subject";
@@ -199,7 +199,7 @@ public class Notifier
                 message = "Please Select Log File To Read";
                 break;
             case 58:
-                message = "Faild To Read Log " + valueName;
+                message = "Failed To Read Log " + valueName;
                 break;
             case 59:
                 message = "Please Select Admin";
@@ -245,7 +245,7 @@ public class Notifier
 
                 string link = "http://www.malliere.com/ArticlePage.aspx?pageID=" + article[1];
 
-                message = "Article " + article[0] + " Was Successfully Added<BR>Article Link:" + link + 
+                message = "Article " + article[0] + " Was Successfully Added<BR>Article Link:" + link +
                           "<BR>Article Full Page: " + "http://www.malliere.com/FullPage.aspx?pageID=" + article[1] + "&type=article";
                 break;
             case 74:

@@ -58,8 +58,8 @@ public class Logger
         }
         catch (Exception)
         {
-            if (!this.globalFunctions.SendMailToAdministrator("Faild To Write Log",
-                    string.Format("Faild To Write Log With Parameters: type = {0} message = {1}",
+            if (!this.globalFunctions.SendMailToAdministrator("Failed To Write Log",
+                    string.Format("Failed To Write Log With Parameters: type = {0} message = {1}",
                     type, message)))
             {
             }

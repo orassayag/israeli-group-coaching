@@ -29,7 +29,7 @@
                                                                     Title
                                                                 </th>
                                                                 <th>
-                                                                    Recived On
+                                                                    Received On
                                                                 </th>
                                                             </tr>
                                                     </HeaderTemplate>

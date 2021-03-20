@@ -81,9 +81,9 @@ public partial class Admin_News : System.Web.UI.Page
                 if (this.newsSpeedSelector.SelectedValue == "" || this.newsPauseTimeSelector.SelectedValue == "" ||
                     this.newsNumberItemsSelector.SelectedValue == "" || this.newsPauseOnMouseHover.Value == "")
                 {
-                    this.Master._Logger.Warn(new AdminException(@". (this.newsSpeedSelector.SelectedValue == "" || 
+                    this.Master._Logger.Warn(new AdminException(@". (this.newsSpeedSelector.SelectedValue == "" ||
                                                                      this.newsPauseTimeSelector.SelectedValue == "" ||
-                                                                     this.newsNumberItemsSelector.SelectedValue == "" || 
+                                                                     this.newsNumberItemsSelector.SelectedValue == "" ||
                                                                      this.newsPauseOnMouseHover.Value == "")"),
                                                 MethodBase.GetCurrentMethod().Name);
                     this.Notify(this.Master._Notifier.Notify(23, "Red", ""));
@@ -690,7 +690,7 @@ public partial class Admin_News : System.Web.UI.Page
             case "27":
             case "25":
             case "71":
-                //faild to update settings
+                //failed to update settings
                 this.ClearFields(1);
                 this.Start();
                 break;
@@ -763,7 +763,7 @@ public partial class Admin_News : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.newsNotifyLabel.ForeColor = Color.Red;
-            this.newsNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.newsNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

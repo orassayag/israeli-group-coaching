@@ -419,7 +419,7 @@ public partial class Admin_AdminMaster : System.Web.UI.MasterPage
         {
             this.logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.masterNotifyLabel.ForeColor = Color.Red;
-            this.masterNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.masterNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
     }
 }

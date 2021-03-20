@@ -33,7 +33,7 @@ public partial class Graduates : System.Web.UI.Page
 
         if (p == null)
         {
-            this.SetError("You Dont Have Graduates Page, Please Create One In Admin.aspx And Try Again");
+            this.SetError("You Don't Have Graduates Page, Please Create One In Admin.aspx And Try Again");
             return;
         }
         try
@@ -44,7 +44,7 @@ public partial class Graduates : System.Web.UI.Page
         catch (Exception t)
         {
             this.Master._Logger.Error(t, MethodBase.GetCurrentMethod().Name);
-            this.SetError("Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator");
+            this.SetError("Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator");
         }
 
         if (!Page.IsPostBack)

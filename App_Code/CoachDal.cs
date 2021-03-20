@@ -343,9 +343,9 @@ public class CoachDal
             return;
         }
 
-        IEnumerable<Graduate> graduates = from sess in this.coachingDal.Graduates
-                                          where sess.GraduateSessionID == sessionID
-                                          select sess;
+        IEnumerable<Graduate> graduates = from session in this.coachingDal.Graduates
+                                          where session.GraduateSessionID == sessionID
+                                          select session;
         for (int i = 0; i < graduates.Count(); i++)
         {
             this.coachingDal.Graduates.DeleteOnSubmit(graduates.ElementAt(i));
@@ -368,9 +368,9 @@ public class CoachDal
             return null;
         }
 
-        IEnumerable<Graduate> graduates = from sess in this.coachingDal.Graduates
-                                          where sess.GraduateSessionID == sessionID
-                                          select sess;
+        IEnumerable<Graduate> graduates = from session in this.coachingDal.Graduates
+                                          where session.GraduateSessionID == sessionID
+                                          select session;
         return graduates;
     }
 
@@ -1073,7 +1073,7 @@ public class CoachDal
         return ad;
     }
 
-    public AdminUser GetAdminUserExceptPasswrod(string passwordExist, string passwordToCheck)
+    public AdminUser GetAdminUserExceptPassword(string passwordExist, string passwordToCheck)
     {
         if (passwordExist == "" || passwordExist == null ||
             passwordToCheck == "" || passwordToCheck == null)
@@ -1105,10 +1105,10 @@ public class CoachDal
         return m;
     }
 
-    public bool GetMailListByMailAddressExcept(string existingAddress, string adressToCheck)
+    public bool GetMailListByMailAddressExcept(string existingAddress, string addressToCheck)
     {
         if (existingAddress == "" || existingAddress == null ||
-            adressToCheck == "" || adressToCheck == null)
+            addressToCheck == "" || addressToCheck == null)
         {
             return false;
         }
@@ -1117,7 +1117,7 @@ public class CoachDal
         try
         {
             m = this.coachingDal.MailLists.SingleOrDefault(g => g.MailListMail != existingAddress &&
-                                                                g.MailListMail == adressToCheck);
+                                                                g.MailListMail == addressToCheck);
         }
         catch (Exception) { }
 

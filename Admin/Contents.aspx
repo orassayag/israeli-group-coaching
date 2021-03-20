@@ -123,7 +123,7 @@
                                 </table>
                                 <asp:Button ID="contentRemoveButton" runat="server" Text="Delete" OnClick="contentRemoveButton_Click" />
                                 <asp:Button ID="contentUpdateButton" runat="server" Text="Update" OnClick="contentUpdateButton_Click" />
-                                <asp:Button ID="contentCacnelButton" runat="server" Text="Cacnel" OnClick="contentCacnelButton_Click" />
+                                <asp:Button ID="contentCancelButton" runat="server" Text="Cancel" OnClick="contentCancelButton_Click" />
                             </div>
                         </div>
                         <div id="addLinkContent" runat="server" class="unVisi" visible="false">

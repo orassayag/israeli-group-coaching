@@ -1,6 +1,6 @@
 # Israeli Group Coaching Old
 
-Built in July 2010. Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
+Built in July 2010. Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with real world projects. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
 ## Getting Started
 
@@ -34,6 +34,10 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
 * LinkedIn: https://il.linkedin.com/in/orassayag
 
+## Design
+
+* Merav Keet <meravi.keet@gmail.com>
+
 ## License
 
-This application has UNLICENSED License.
+This application has an UNLICENSED License.

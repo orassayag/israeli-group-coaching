@@ -307,7 +307,7 @@ public partial class Admin_Admins : System.Web.UI.Page
             return;
         }
 
-        if (this.Master._CoachingDal.GetAdminUserExceptUserID(m.UserID, this.generalGetUserID.Text) != null)                                  
+        if (this.Master._CoachingDal.GetAdminUserExceptUserID(m.UserID, this.generalGetUserID.Text) != null)
         {
             this.Master._Logger.Warn(new AdminException(@". this.Master._CoachingDal.GetAdminUserExceptUserID
                                                         (m.UserID, this.generalGetUserID.Text) != null)"),
@@ -317,7 +317,7 @@ public partial class Admin_Admins : System.Web.UI.Page
             return;
         }
 
-        if (this.Master._CoachingDal.GetAdminUserExceptPasswrod(m.Password, this.generalGetPassword2.Text) != null)
+        if (this.Master._CoachingDal.GetAdminUserExceptPassword(m.Password, this.generalGetPassword2.Text) != null)
         {
             this.Master._Logger.Warn(new AdminException(@". this.Master._CoachingDal.GetAdminUserExceptUserID
                                                         (m.Password, this.generalGetPassword2.Text) != null)"),
@@ -416,7 +416,7 @@ public partial class Admin_Admins : System.Web.UI.Page
             case "27":
             //update
             case "8":
-                //already texist
+                //already exist
             case "28":
             case "38":
                 //remove
@@ -503,7 +503,7 @@ public partial class Admin_Admins : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.adminsNotifyLabel.ForeColor = Color.Red;
-            this.adminsNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And content The Administrator";
+            this.adminsNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

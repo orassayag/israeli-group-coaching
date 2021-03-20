@@ -98,7 +98,7 @@ public partial class Admin_Articles : System.Web.UI.Page
     }
 
 
-    protected void articleCacnelButton_Click(object sender, EventArgs e)
+    protected void articleCancelButton_Click(object sender, EventArgs e)
     {
         this.Start();
     }
@@ -512,7 +512,7 @@ public partial class Admin_Articles : System.Web.UI.Page
         {
             this.Master._Logger.Error(e, MethodBase.GetCurrentMethod().Name);
             this.articlesNotifyLabel.ForeColor = Color.Red;
-            this.articlesNotifyLabel.Text = "Ooooops! Somthing Wrong Was Happend, Please Try Again Or/And article The Administrator";
+            this.articlesNotifyLabel.Text = "Oops! Something Wrong Has Happened, Please Try Again Or/And contact The Administrator";
         }
         finally
         {

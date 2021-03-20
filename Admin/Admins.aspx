@@ -37,7 +37,7 @@
                                 <asp:Label ID="adminLabel" Text="" runat="server" CssClass="red"></asp:Label>
                                 <br />
                                 <asp:Button ID="addAddAdmin" runat="server" Text="Add" OnClick="addAddAdmin_Click" OnClientClick="return validateField()" />
-                                <asp:Button ID="cancelAddAdmin" runat="server" Text="Cacnel" OnClick="cancelAddAdmin_Click" />
+                                <asp:Button ID="cancelAddAdmin" runat="server" Text="Cancel" OnClick="cancelAddAdmin_Click" />
                                 <input id="loginIDUp" runat="server" type="hidden" value="" />
                                 <input id="loginIDRe" runat="server" type="hidden" value="" />
                             </div>
@@ -45,7 +45,7 @@
                                 <asp:DropDownList ID="removeUpdateAdminSelector" runat="server">
                                 </asp:DropDownList>
                                 <br />
-                                <asp:Button ID="cancelRemoveUpdateAdmin" runat="server" Text="Cacnel" OnClick="cancelRemoveUpdateAdmin_Click" />
+                                <asp:Button ID="cancelRemoveUpdateAdmin" runat="server" Text="Cancel" OnClick="cancelRemoveUpdateAdmin_Click" />
                                 <asp:Button ID="updateRemoveUpdateAdmin" runat="server" Text="Update" OnClick="updateRemoveUpdateAdmin_Click" />
                                 <asp:Button ID="removeRemoveUpdateAdmin" runat="server" Text="Remove" OnClick="removeRemoveUpdateAdmin_Click" />
                             </div>
