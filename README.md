@@ -1,6 +1,6 @@
 # Israeli Group Coaching Old
 
-Built in July 2010. Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with real world projects. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
+Built in July 2010. Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with a real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
 ## Getting Started
 
