@@ -8,15 +8,15 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install .Net, and SQL Management Studio.
+You'll need to install .NET, and SQL management studio.
 
 ## Built With
 
 * [ASP.NET Web-Forms](https://www.asp.net/web-forms) - The web framework used.
 * [SQL](https://azure.microsoft.com/en-us/services/sql-database/) - The database used.
-* [LINQ-TO-SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/) - The component of .NET Framework.
+* [LINQ-TO-SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/) - The component of .NET framework.
 * [jQuery](https://jquery.com/) - The web framework used.
-* [GIT](https://git-scm.com/) - Source Management.
+* [GIT](https://git-scm.com/) - Source management.
 
 ## Contributing
 
