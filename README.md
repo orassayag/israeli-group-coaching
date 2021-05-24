@@ -1,4 +1,4 @@
-# Israeli Group Coaching Old
+# Israeli Group Coaching
 
 Built in July 2010. Israeli Group Coaching site built for a customer and that was in production and expired a long time ago, and was a nice to build and get experience with a real world project. Built using ASP.NET Web-Forms + jQuery, Database as of LINQ-TO-SQL.
 
@@ -13,10 +13,10 @@ You'll need to install .NET, and SQL management studio.
 ## Built With
 
 * [ASP.NET Web-Forms](https://www.asp.net/web-forms) - The web framework used.
-* [SQL](https://azure.microsoft.com/en-us/services/sql-database/) - The database used.
-* [LINQ-TO-SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/) - The component of .NET framework.
-* [jQuery](https://jquery.com/) - The web framework used.
-* [GIT](https://git-scm.com/) - Source management.
+* [SQL](https://azure.microsoft.com/en-us/services/sql-database) - The database used.
+* [LINQ-TO-SQL](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq) - The component of .NET framework.
+* [jQuery](https://jquery.com) - The web framework used.
+* [GIT](https://git-scm.com) - Source management.
 
 ## Contributing
 
@@ -24,7 +24,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Author
 
@@ -40,4 +40,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
